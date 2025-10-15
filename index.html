@@ -148,7 +148,7 @@
 
                     <div class="column lg-6 md-12 about-info__pic-block">
                         <img src="images/blackstudioabout.jpeg" 
-                             srcset="images/about-photo.jpg 1x, images/about-photo@2x.jpg 2x" alt="" class="about-info__pic" data-animate-el>
+                             srcset="images/blackstudioabout.jpeg 1x, images/blackstudioabout.jpeg 2x" alt="" class="about-info__pic" data-animate-el>
                     </div>
 
                     <div class="column lg-6 md-12">
@@ -281,7 +281,7 @@
 <!--======================================================================================================================================================-->
                     <!-- SALONUMUZ -->
                     <h3 class="text-pretitle" data-animate-el>Salonumuz</h3>
-                    <ul class="folio-list block-lg-one-third block-stack-on-1000">
+                    <ul class="folio-list block-lg-one-third block-stack-on-1000" data-animate-block>
                         <li class="folio-list__item column" data-animate-el>
                             <a class="folio-list__item-link" href="#modal-01">
                                 <div class="folio-list__item-pic">
@@ -309,7 +309,7 @@
                         
                     <!-- KESİMLER -->
                     <h3 class="text-pretitle" data-animate-el>Kesimler</h3>
-                    <ul class="folio-list new_row block-lg-one-third block-stack-on-1000">
+                    <ul class="folio-list new_row block-lg-one-third block-stack-on-1000" data-animate-block>
                         <li class="folio-list__item column" data-animate-el>
                             <a class="folio-list__item-link" href="#modal-04">
                                 <div class="folio-list__item-pic">
@@ -337,22 +337,22 @@
 
                     <!-- ÜNLÜLER 
                     <h3 class="text-pretitle" data-animate-el>Ünlüler</h3>
-                    <ul class="folio-list new_row block-lg-one-third block-stack-on-1000">
-                        <li class="folio-list__item column" data-animate-el>
+                    <ul class="folio-list new_row block-lg-one-third block-stack-on-1000" data-animate-block>
+                        <li class="folio-list__item column">
                             <a class="folio-list__item-link" href="#modal-07">
                                 <div class="folio-list__item-pic">
                                     <img src="images/portfolio/gallery/g-fuji.jpg" alt="Ünlü müşteri 1">
                                 </div>
                             </a>
                         </li>
-                        <li class="folio-list__item column" data-animate-el>
+                        <li class="folio-list__item column">
                             <a class="folio-list__item-link" href="#modal-08">
                                 <div class="folio-list__item-pic">
                                     <img src="images/portfolio/gallery/g-fuji.jpg" alt="Ünlü müşteri 1">
                                 </div>
                             </a>
                         </li>
-                        <li class="folio-list__item column" data-animate-el>
+                        <li class="folio-list__item column">
                             <a class="folio-list__item-link" href="#modal-09">
                                 <div class="folio-list__item-pic">
                                     <img src="images/portfolio/gallery/g-fuji.jpg" alt="Ünlü müşteri 1">
@@ -363,12 +363,16 @@
                     -->
 <!--======================================================================================================================================================-->
                     </div> <!-- end column -->
+                    
+                    <!--
+                     <hr class="gallery-divider">
+                     
+                     <br>-->
 
-                    <hr class="gallery-divider">
+                    <button class="show-more-btn" id="openGallery">
+                        Tüm Fotoğrafları Gör
+                    </button>
 
-                    <br>
-
-                    <button class="show-more-btn" id="openGallery">Tüm Fotoğrafları Gör</button>
                     <!-- ===============================
                         POPUP GALERİ (MODAL)
                     =================================-->
